@@ -1,6 +1,7 @@
 /**
  * An image properties information
- * @typedef {{name: string, width: number, height: number, scales: number[], tileSize: number, }} ImageProperies
+ * @typedef {{name: string, width: number, height: number, scales: number[], tileSize: number, }} ImageProperties
+ * @typedef {{tileKey: string, tileKeys: number[], imageSrc: string, offsetX: number, offestY: number}} TileEntity
  */
 
 /**
